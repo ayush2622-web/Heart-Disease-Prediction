@@ -312,7 +312,7 @@ function App() {
       );
 
       const response = await fetch(
-        "https://heart-disease-prediction-iibb.onrender.com",
+        "https://heart-disease-prediction-iibb.onrender.com/predict",
         {
           method: "POST",
 
